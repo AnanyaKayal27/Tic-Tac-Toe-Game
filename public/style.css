@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#F1E2D1;
+
+    font-family:Segoe UI,sans-serif;
+}
+
+.container{
+    width:700px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+h1{
+    color:#810B38;
+    margin-bottom:20px;
+}
+
+input{
+    width:250px;
+
+    padding:12px;
+
+    margin:10px;
+
+    border:2px solid #DCC3AA;
+
+    border-radius:10px;
+}
+
+button{
+    padding:12px 20px;
+
+    border:none;
+
+    cursor:pointer;
+
+    background:#810B38;
+
+    color:white;
+
+    border-radius:10px;
+
+    margin:10px;
+
+    font-weight:bold;
+}
+
+button:hover{
+    background:#541A1A;
+}
+
+#gameArea{
+    display:none;
+}
+
+.board{
+    width:360px;
+
+    margin:20px auto;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:10px;
+}
+
+.cell{
+    width:110px;
+    height:110px;
+
+    background:#DCC3AA;
+
+    border-radius:15px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:50px;
+
+    color:#810B38;
+
+    cursor:pointer;
+
+    font-weight:bold;
+}
+
+#players{
+    margin-top:10px;
+}
+
+#turn{
+    color:#541A1A;
+}
+
+#result{
+    color:#810B38;
+    margin-top:15px;
+}
