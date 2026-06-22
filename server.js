@@ -214,7 +214,7 @@ io.on("connection", (socket) => {
 });
 
 server.listen(3000, () => {
-  console.log(
-    "Server running on port 3000"
-  );
+  console.log("\n🎮 Tic Tac Toe Server Started!");
+  console.log("🌐 Open in Browser:");
+  console.log("👉 http://localhost:3000\n");
 });
