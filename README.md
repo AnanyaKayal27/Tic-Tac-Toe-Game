@@ -14,3 +14,5 @@ You should see:
 
 Open Browser: 
 http://localhost:3000
+
+To get ip address run: ipconfig

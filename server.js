@@ -213,8 +213,16 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(3000, () => {
+const PORT = process.env.PORT || 3000;
+
+server.listen(PORT, () => {
   console.log("\n🎮 Tic Tac Toe Server Started!");
-  console.log("🌐 Open in Browser:");
-  console.log("👉 http://localhost:3000\n");
+  console.log(`🚀 Running on port ${PORT}`);
+
+  if (PORT == 3000) {
+    console.log("🌐 Open in Browser:");
+    console.log("👉 http://localhost:3000\n");
+  } else {
+    console.log("🌐 Running on Render (or another hosting platform)\n");
+  }
 });
