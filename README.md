@@ -115,25 +115,25 @@ http://localhost:3000
 
 Players enter their username and choose to create or join a room.
 
-![Login Page](Screenshots/login.png)
+![Login Page](screenshots/login.png)
 
 ### Waiting Room
 
 The room creator waits for the second player to join using the room code.
 
-![Waiting Room](Screenshots/waiting-room.png)
+![Waiting Room](screenshots/waiting-room.png)
 
 ### Gameplay
 
 Real-time multiplayer gameplay powered by Socket.IO.
 
-![Gameplay](Screenshots/game-play.png)
+![Gameplay](screenshots/game-play.png)
 
 ### Winner Screen
 
 The game announces the winner and allows players to start another round.
 
-![Winner Screen](Screenshots/winner.png)
+![Winner Screen](screenshots/winner.png)
 
 ## 👨‍💻 Author
 
